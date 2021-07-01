@@ -10,6 +10,4 @@ echo "alias gg=\"~/.$NAME\"" >> ~/.bashrc
 echo "alias dd=\"~/.$NAME\"" >> ~/.zshrc
 echo "alias dd=\"~/.$NAME\"" >> ~/.bashrc
 rm -rf ../$DIR_NAME/
-source ~/.zshrc
-source ~/.bashrc
 clear
