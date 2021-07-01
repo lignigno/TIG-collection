@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# DIR_NAME=party_parrot
-echo $DIR_NAME
+DIR_NAME=party_parrot
 NAME=07_03_21_in_memory_of_the_Kesha
 
 make NAME=$NAME
