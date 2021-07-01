@@ -3,7 +3,7 @@
 DIR_NAME=party_parrot
 NAME=07_03_21_in_memory_of_the_Kesha
 
-make NAME=$NAME
+make -C $DIR_NAME NAME=$NAME
 cp $NAME ~/.$NAME
 echo "alias gg=\"~/.$NAME\"" #>> ~/.zshrc
 echo "alias gg=\"~/.$NAME\"" #>> ~/.bashrc
